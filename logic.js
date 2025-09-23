@@ -56,24 +56,6 @@ function playGame() {
     }
   }
 
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log(`round 1: Your Score: ${humanScore}, Computer Score: ${computerScore}`)
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log(`round 2: Your Score: ${humanScore}, Computer Score: ${computerScore}`)
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log(`round 3: Your Score: ${humanScore}, Computer Score: ${computerScore}`)
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log(`round 4: Your Score: ${humanScore}, Computer Score: ${computerScore}`)
-  playRound(getHumanChoice(), getComputerChoice());
-  console.log(`round 5: Your Score: ${humanScore}, Computer Score: ${computerScore}`)
-  if(humanScore > computerScore) {
-    console.log("You won the game!")
-  } else if (humanScore < computerScore) {
-    console.log("Computer won the game!")
-  } else {
-    console.log("You and Computer won the game! (draw)")
-  }
 }
-
 
 playGame();
